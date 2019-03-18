@@ -496,6 +496,7 @@ this.createjs = this.createjs||{};
 				if (typeof img == "string") {
 					var src = img;
 					img = document.createElement("img");
+                    img.crossOrigin = "Anonymous";
 					img.src = src;
 				}
 				a.push(img);
