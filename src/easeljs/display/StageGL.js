@@ -2897,9 +2897,9 @@ this.createjs = this.createjs||{};
 		var gl = this._webGLContext;
 		this._renderPerDraw++;
 
-		if (this.vocalDebug) {
-			console.log("Batch["+ this._drawID +":"+ this._batchID +"] : "+ this.batchReason);
-		}
+		// if (this.vocalDebug) {
+		// 	console.log("Batch["+ this._drawID +":"+ this._batchID +"] : "+ this.batchReason);
+		// }
 		var shaderProgram = this._activeShader;
 		var pc, config = this._activeConfig;
 
